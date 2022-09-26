@@ -11,16 +11,16 @@ public class LinkedListTest {
 		theList.append( "world" );
 		theList.append("!!");
 		theList.print();
-//		if (theList.find("hello")) {
-//			System.out.println("Found hello");
-//		} else {
-//			System.out.println("Missing hello");
-//		}
-//		if (theList.find("!!")) {
-//			System.out.println("Found !!");
-//		} else {
-//			System.out.println("Missing !!");
-//		}
+		if (theList.find("hello")) {
+			System.out.println("Found hello");
+		} else {
+			System.out.println("Missing hello");
+		}
+		if (theList.find("!!")) {
+			System.out.println("Found !!");
+		} else {
+			System.out.println("Missing !!");
+		}
 
 	}
 

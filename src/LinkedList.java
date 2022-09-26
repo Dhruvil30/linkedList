@@ -31,7 +31,7 @@ public class LinkedList {
 
 		if (head == null) {
 			// First word in the list.
-			head = new Node( word, new Node() );
+			head = new Node( word );
 			location = head;
 		} else {
 			// Find the end of the list
